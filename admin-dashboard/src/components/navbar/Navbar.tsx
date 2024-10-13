@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="logo.svg" alt="Logo" />
+        <img src="./favicon.ico" alt="Logo" />
         <span>React Admin</span>
       </div>
       <div className="icons">
         <i className="fa-solid fa-magnifying-glass icon"></i>
         <i className="fa-solid fa-sliders icon"></i>
-        <i className="fa-solid fa-maximize icon"></i>
+        <i className="fa-solid fa-expand"></i>
         <div className="notification">
           <i className="fa-regular fa-envelope"></i>
           <span>1</span>
