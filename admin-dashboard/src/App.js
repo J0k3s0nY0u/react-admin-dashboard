@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
-import "./styles/global.scss";
+import "./styles/main.scss";
 
 import Home from "./pages/home/Home.tsx";
 import Users from "./pages/users/Users.tsx";
