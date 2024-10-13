@@ -7,12 +7,16 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar.tsx";
 
 function App() {
 
   const Layout = () => {
     return (
-      <div className="main"></div>
+      <div className="main">
+        <Navbar />
+        <Menu />
+      </div>
     )
   }
 
