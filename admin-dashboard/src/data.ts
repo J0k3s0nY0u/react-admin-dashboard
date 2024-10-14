@@ -114,3 +114,5 @@ export const menu = [
     ],
   },
 ];
+
+export const topDealUsers = [];

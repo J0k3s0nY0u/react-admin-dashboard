@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.scss";
-import TopBox from "../../components/topBox/TopBox";
+import TopBox from "../../components/topBox/TopBox.tsx";
 
 const Home = () => {
   return (
