@@ -115,4 +115,54 @@ export const menu = [
   },
 ];
 
-export const topDealUsers = [];
+export const topDealUsers = [
+  {
+    id: 1,
+    img: "./logo192.png",
+    username: "Abc Johnson",
+    email: "abc@email.com",
+    amount: "1.25",
+  },
+  {
+    id: 2,
+    img: "./logo192.png",
+    username: "Abc Johnson",
+    email: "abc@email.com",
+    amount: "1.25",
+  },
+  {
+    id: 3,
+    img: "./logo192.png",
+    username: "Abc Johnson",
+    email: "abc@email.com",
+    amount: "1.25",
+  },
+  {
+    id: 4,
+    img: "./logo192.png",
+    username: "Abc Johnson",
+    email: "abc@email.com",
+    amount: "1.25",
+  },
+  {
+    id: 5,
+    img: "./logo192.png",
+    username: "Abc Johnson",
+    email: "abc@email.com",
+    amount: "1.25",
+  },
+  {
+    id: 6,
+    img: "./logo192.png",
+    username: "Abc Johnson",
+    email: "abc@email.com",
+    amount: "1.25",
+  },
+  {
+    id: 7,
+    img: "./logo192.png",
+    username: "Abc Johnson",
+    email: "abc@email.com",
+    amount: "1.25",
+  },
+];
