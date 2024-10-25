@@ -57,7 +57,7 @@ const ChartBox = () => {
           <span>Total Users</span>
         </div>
         <h1>10.04</h1>
-        <Link to={"/"}>View all...</Link>
+        <Link to="/">View all...</Link>
       </div>
       <div className="chartInfo">
         <div className="chart">
