@@ -2,6 +2,7 @@ import React from "react";
 import "./home.scss";
 import TopBox from "../../components/topBox/TopBox.tsx";
 import ChartBox from "../../components/chartBox/ChartBox.tsx";
+import { chartBoxUser } from "../../data.ts";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
         <TopBox />
       </div>
       <div className="box box2">
-        <ChartBox />
+        <ChartBox {...chartBoxUser} />
       </div>
       <div className="box box3">
         <ChartBox />

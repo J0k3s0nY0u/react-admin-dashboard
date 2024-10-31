@@ -166,3 +166,21 @@ export const topDealUsers = [
     amount: "1.25",
   },
 ];
+
+export const chartBoxUser = {
+  color: "#8884d8",
+  icon: "/logo192.png",
+  title: "Total Users",
+  number: "11.231",
+  dataKey: "users",
+  percentage: 45,
+  chartData: [
+    { name: "Sun", users: 200 },
+    { name: "Mon", users: 300 },
+    { name: "Tue", users: 100 },
+    { name: "Wed", users: 500 },
+    { name: "Thu", users: 400 },
+    { name: "Fri", users: 700 },
+    { name: "Sat", users: 450 },
+  ],
+};
