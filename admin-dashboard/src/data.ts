@@ -238,3 +238,75 @@ export const chartBoxRevenue = {
     { name: "Sat", revenue: 150 },
   ],
 };
+
+export const barChartBoxVisit = {
+  title: "Total Visit",
+  color: "#ff8832",
+  dataKey: "visit",
+  chartData: [
+    {
+      name: "Sun",
+      visit: 4000,
+    },
+    {
+      name: "Mon",
+      visit: 3000,
+    },
+    {
+      name: "Tue",
+      visit: 2000,
+    },
+    {
+      name: "Wed",
+      visit: 2780,
+    },
+    {
+      name: "Thu",
+      visit: 1890,
+    },
+    {
+      name: "Fri",
+      visit: 2390,
+    },
+    {
+      name: "Sat",
+      visit: 3490,
+    },
+  ],
+};
+
+export const barChartBoxRevenue = {
+  title: "Total Revenue",
+  color: "#ff8832",
+  dataKey: "revenue",
+  chartData: [
+    {
+      name: "Sun",
+      revenue: 2000,
+    },
+    {
+      name: "Mon",
+      revenue: 3000,
+    },
+    {
+      name: "Tue",
+      revenue: 4000,
+    },
+    {
+      name: "Wed",
+      revenue: 2780,
+    },
+    {
+      name: "Thu",
+      revenue: 1890,
+    },
+    {
+      name: "Fri",
+      revenue: 3390,
+    },
+    {
+      name: "Sat",
+      revenue: 2490,
+    },
+  ],
+};
