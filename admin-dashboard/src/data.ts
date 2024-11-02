@@ -184,3 +184,57 @@ export const chartBoxUser = {
     { name: "Sat", users: 450 },
   ],
 };
+
+export const chartBoxConversion = {
+  color: "#FFA000",
+  icon: "/logo192.png",
+  title: "Total Ratio",
+  number: "21.2",
+  dataKey: "ratio",
+  percentage: 15,
+  chartData: [
+    { name: "Sun", ratio: 300 },
+    { name: "Mon", ratio: 200 },
+    { name: "Tue", ratio: 400 },
+    { name: "Wed", ratio: 500 },
+    { name: "Thu", ratio: 400 },
+    { name: "Fri", ratio: 700 },
+    { name: "Sat", ratio: 450 },
+  ],
+};
+
+export const chartBoxProduct = {
+  color: "#5A4FCF",
+  icon: "/logo192.png",
+  title: "Total Products",
+  number: "231",
+  dataKey: "products",
+  percentage: 25,
+  chartData: [
+    { name: "Sun", products: 200 },
+    { name: "Mon", products: 500 },
+    { name: "Tue", products: 700 },
+    { name: "Wed", products: 600 },
+    { name: "Thu", products: 400 },
+    { name: "Fri", products: 700 },
+    { name: "Sat", products: 450 },
+  ],
+};
+
+export const chartBoxRevenue = {
+  color: "#848482",
+  icon: "/logo192.png",
+  title: "Total Revenue",
+  number: "5011",
+  dataKey: "revenue",
+  percentage: -5,
+  chartData: [
+    { name: "Sun", revenue: 100 },
+    { name: "Mon", revenue: 300 },
+    { name: "Tue", revenue: 100 },
+    { name: "Wed", revenue: 500 },
+    { name: "Thu", revenue: 200 },
+    { name: "Fri", revenue: 700 },
+    { name: "Sat", revenue: 150 },
+  ],
+};
